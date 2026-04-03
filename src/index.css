@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  
+  /* Use hex colors to avoid oklch errors in html2canvas */
+  --color-slate-50: #f8fafc;
+  --color-slate-100: #f1f5f9;
+  --color-slate-200: #e2e8f0;
+  --color-slate-300: #cbd5e1;
+  --color-slate-400: #94a3b8;
+  --color-slate-500: #64748b;
+  --color-slate-600: #475569;
+  --color-slate-700: #334155;
+  --color-slate-800: #1e293b;
+  --color-slate-900: #0f172a;
+  --color-blue-400: #60a5fa;
+  --color-blue-500: #3b82f6;
+  --color-blue-600: #2563eb;
+  --color-green-500: #22c55e;
+  --color-orange-500: #f97316;
+  --color-purple-500: #a855f7;
+  --color-indigo-500: #6366f1;
+  --color-amber-500: #f59e0b;
+  --color-emerald-500: #10b981;
+  --color-red-500: #ef4444;
+}
+
+@layer base {
+  body {
+    @apply bg-[#0a0a0a] text-slate-200 antialiased font-sans;
+  }
+}

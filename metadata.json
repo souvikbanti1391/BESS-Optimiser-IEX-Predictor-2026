@@ -1,0 +1,5 @@
+{
+  "name": "BESS Optimizer & IEX Predictor 2026",
+  "description": "A comprehensive tool for IEX price prediction and Battery Energy Storage System (BESS) scheduling optimization.",
+  "requestFramePermissions": []
+}
